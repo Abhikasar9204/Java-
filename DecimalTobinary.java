@@ -5,7 +5,7 @@ public class DecimalTobinary {
         int pow=0;
         while(binnum>0){
             int rem=binnum%2;
-            bin=bin+rem*(int)Math.pow(2, pow);
+            bin=bin+rem*(int)Math.pow(10, pow);
             binnum=binnum/2;
             pow++;
         }
